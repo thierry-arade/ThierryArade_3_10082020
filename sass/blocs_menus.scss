@@ -1,0 +1,156 @@
+.bloc_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+  
+.section-menu-intro {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.section-menu-intro
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin : 20px 0px;
+}
+
+.menu-card-wrapper {
+    height: 600px;
+    width: 450px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    h3 {
+        font-size: 80px;
+    }
+}
+
+.menu-card-wrapper-full {
+    max-height: 800px;
+    max-width: 700px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    h3 {
+        font-size: 80px;
+    }
+}
+
+.menu-card-wrapper-full-2 {
+    max-height: 800px;
+    max-width: 850px;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    h3 {
+        font-size: 80px;
+    }
+}
+
+.bloc_la-note-enchantee
+{
+    background-color: $color-title-la-note-enchantee;
+    h2, h3 {
+        color: black;
+        font-family: 'damion';
+    }
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.05); 
+    }       
+}
+
+.bloc_le-chic-a-la-francaise
+{
+    background-color: $color-title-le-chic-a-la-francaise;
+    h2 {
+        background: linear-gradient(159deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 5%, rgba(131,58,180,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-family: 'dancingscript';
+    }
+    h3 {
+        color: burlywood;
+        font-family: 'dancingscript';
+    }
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.05); 
+    }
+}
+
+.bloc_le-delice-des-papilles
+{ 
+    background-color: $color-title-le-delice-des-papilles;
+    h2, h3 {
+        font-size: 50px;
+        background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(0,0,255,0.8827906162464986) 35%, rgba(0,212,255,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-family: 'kaushanscript';
+        padding: 10px;
+    }
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.05); 
+    }      
+}
+
+.bloc_la-palette-du-gout
+{
+    background-color: $color-title-la-palette-du-gout;
+    h2, h3 {
+        color: green;
+        font-family: 'caveat';
+    }   
+    h2{
+        font-size: 60px;
+    }
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.05); 
+    }
+}
+
+
+@media screen and (max-width: 1060px) {
+    .section-menu-intro {
+        justify-content: center;
+    }
+}

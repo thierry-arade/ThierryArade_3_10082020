@@ -1,0 +1,235 @@
+.menu_la-note-enchantee
+{
+    .la-note-enchantee_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .la-note-enchantee_bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .la-note-enchantee_menu
+    {
+        h1, h2, h3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        }
+    }
+
+    .plat-descr, .plat-prix {
+        font-family: 'damion';
+    }
+
+    h1, h2, h3 {
+        color: black;
+        font-family: 'damion';
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p
+    {
+        font-family: 'damion';
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 22px;
+    }
+}
+
+.menu_le-chic-a-la-francaise
+{
+    .le-chic-a-la-francaise_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .le-chic-a-la-francaise_bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .le-chic-a-la-francaise_menu
+    {
+        h1, h2, h3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        }
+    }
+
+    .plat-descr, .plat-prix {
+        font-family: 'dancingscript';
+    }
+
+    h1, h2, h3 {
+        color: burlywood;
+        font-family: 'dancingscript';
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p
+    {
+        font-family: 'dancingscript';
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 22px;
+    }
+}
+
+.menu_le-delice-des-papilles
+{
+    .le-delice-des-papilles_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .le-delice-des-papilles_bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .le-delice-des-papilles_menu
+    {
+        h1, h2, h3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        }
+    }
+
+    .plat-descr, .plat-prix {
+        font-family: 'kaushanscript';
+    }
+
+    h1, h2, h3 {
+        color: blue;
+        font-family: 'kaushanscript';
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(0,0,255,0.8827906162464986) 35%, rgba(0,212,255,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p
+    {
+        font-family: 'kaushanscript';
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 22px;
+    }
+}
+
+.menu_la-palette-du-gout
+{
+    .la-palette-du-gout_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .la-palette-du-gout_bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .la-palette-du-gout_menu
+    {
+        h1, h2, h3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        }
+    }
+
+    .plat-descr, .plat-prix {
+        font-family: 'caveat';
+    }
+
+    h1, h2, h3 {
+        color: green;
+        font-family: 'caveat';
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p
+    {
+        font-family: 'caveat';
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-size: 22px;
+    }
+}

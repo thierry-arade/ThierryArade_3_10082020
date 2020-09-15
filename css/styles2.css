@@ -1,0 +1,14 @@
+* {
+    font-family: "Damion", Verdana, Tahoma, sans-serif;
+    src: url(fonts/Damion.ttf);
+  }
+  
+html {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+  }
+body
+{
+    background-color: pink;
+}

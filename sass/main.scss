@@ -1,0 +1,85 @@
+@import 'reset.scss';
+@import 'fonts.scss';
+@import 'variables.scss';
+@import 'header.scss';
+@import 'footer.scss';
+@import 'button.scss';
+@import 'blocs_menus.scss';
+@import 'menus.scss';
+@import 'contact.scss';
+
+
+* 
+{
+    font-family: 'Breul Grotesk', 'damion', 'dancingscript', 'kaushanscript', 'caveat';
+}
+
+
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bloc_page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.btn-wrapper 
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.btn-prochainement
+{
+    background-color: $secondary-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.1); 
+    }
+        
+}
+
+.plat-ligne
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plat-prix
+{
+    margin-left: 20px;
+    min-width: 80px;
+    text-align: right;
+}
+
+.container_mentions-legales
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px
+}

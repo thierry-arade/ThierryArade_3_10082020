@@ -1,0 +1,20 @@
+.head
+{
+    width: 100%;
+    height: 150px;
+    background-color: $secondary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    color: $primary-color;
+    font-size: 100px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: unset;
+}
