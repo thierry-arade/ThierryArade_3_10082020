@@ -6,6 +6,7 @@
 @import 'button.scss';
 @import 'blocs_menus.scss';
 @import 'menus.scss';
+@import 'animations.scss';
 @import 'contact.scss';
 
 
@@ -13,7 +14,6 @@
 {
     font-family: 'Breul Grotesk', 'damion', 'dancingscript', 'kaushanscript', 'caveat';
 }
-
 
 .main
 {
@@ -31,7 +31,6 @@
     justify-content: space-around;
     margin-top: 15px;
     margin-bottom: 15px;
-    
 }
 
 .btn-wrapper 
@@ -41,31 +40,19 @@
     margin-bottom: 200px;
 }
 
-.btn-prochainement
-{
-    background-color: $secondary-color;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    padding: 1.5rem 3rem;
-    transform: scale(1);
-    transition: transform 400ms;
-    &:hover {
-        transform: scale(1.1); 
+.hr {
+    h2 {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
     }
-        
 }
 
 .plat-ligne
 {
     display: flex;
     justify-content: space-between;
+    width:100%;
 }
 
 .plat-prix
@@ -75,11 +62,44 @@
     text-align: right;
 }
 
-.container_mentions-legales
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px
+.menu-subtitle {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
 }
+
+h2.menu-subtitle {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 30px;
+	.line {
+        border-bottom: 2px solid black;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .btn-wrapper {
+        margin-bottom: 150px;
+    }
+    .menu-subtitle {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 20px;
+    }
+    h2.menu-subtitle {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 20px;
+        .line {
+            border-bottom: 2px solid black;
+            width: 25%;
+        }
+    }
+}
+
+

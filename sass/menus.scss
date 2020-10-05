@@ -17,10 +17,9 @@
     {
         h1, h2, h3 {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 25px;
+        padding: 40px;
         }
     }
 
@@ -40,6 +39,7 @@
 
     h2 {
         font-size: 35px;
+        padding-top: 20px;
     }
 
     h3 {
@@ -57,10 +57,12 @@
 }
 
 .menu_le-chic-a-la-francaise
-{
+{   
+    * {
+        font-family: 'dancingscript';
+    }
     .le-chic-a-la-francaise_top {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -75,15 +77,15 @@
     {
         h1, h2, h3 {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 40px;
         }
     }
 
     .plat-descr, .plat-prix {
         font-family: 'dancingscript';
+        font-size: 25px;
     }
 
     h1, h2, h3 {
@@ -98,6 +100,7 @@
 
     h2 {
         font-size: 35px;
+        padding-top: 20px;
     }
 
     h3 {
@@ -116,6 +119,9 @@
 
 .menu_le-delice-des-papilles
 {
+    * {
+        font-family: 'kaushanscript';
+    }
     .le-delice-des-papilles_top {
         display: flex;
         flex-direction: column;
@@ -133,10 +139,9 @@
     {
         h1, h2, h3 {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 40px;
         }
     }
 
@@ -160,6 +165,7 @@
 
     h2 {
         font-size: 35px;
+        padding-top: 20px;
     }
 
     h3 {
@@ -178,6 +184,9 @@
 
 .menu_la-palette-du-gout
 {
+    * {
+        font-family: 'caveat';
+    }
     .la-palette-du-gout_top {
         display: flex;
         flex-direction: column;
@@ -195,15 +204,15 @@
     {
         h1, h2, h3 {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 40px;
         }
     }
 
     .plat-descr, .plat-prix {
         font-family: 'caveat';
+        font-size: 25px;
     }
 
     h1, h2, h3 {
@@ -218,6 +227,7 @@
 
     h2 {
         font-size: 35px;
+        padding-top: 20px;
     }
 
     h3 {
@@ -231,5 +241,56 @@
         justify-content: space-between;
         align-items: baseline;
         font-size: 22px;
+    }
+}
+.menu_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1060px) {
+    .menu_la-note-enchantee {
+        .note-musique {
+            font-size: 10px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .plat-descr, .plat-prix {
+            font-size: 20px;
+        }
+    }
+    .menu_le-chic-a-la-francaise {
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .plat-descr, .plat-prix {
+            font-size: 15px;
+        }
+    }
+    .menu_le-delice-des-papilles {
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .menu_la-palette-du-gout {
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
     }
 }

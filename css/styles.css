@@ -64,6 +64,11 @@ h1 a {
   font-size: 25px;
 }
 
+@media screen and (max-width: 1060px) {
+  .contact {
+    font-size: 10px;
+  }
+}
 .button {
   background-color: #579C87;
   border: none;
@@ -101,7 +106,7 @@ h1 a {
   height: 600px;
   width: 450px;
   font-size: 20px;
-  padding: 30px;
+  padding: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
@@ -116,10 +121,9 @@ h1 a {
 }
 
 .menu-card-wrapper-full {
-  max-height: 800px;
   max-width: 700px;
   font-size: 20px;
-  padding: 30px;
+  padding: 50px;
   margin-top: 20px;
   margin-bottom: 120px;
   display: flex;
@@ -133,64 +137,39 @@ h1 a {
   font-size: 80px;
 }
 
-.menu-card-wrapper-full-2 {
-  max-height: 800px;
-  max-width: 850px;
-  font-size: 20px;
-  padding: 30px;
-  margin-top: 20px;
-  margin-bottom: 120px;
+.menu_top h2 {
+  font-size: 40px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-decoration: none;
-}
-.menu-card-wrapper-full-2 h3 {
-  font-size: 80px;
 }
 
 .bloc_la-note-enchantee {
   background-color: pink;
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform 400ms;
 }
 .bloc_la-note-enchantee h2, .bloc_la-note-enchantee h3 {
   color: black;
   font-family: "damion";
 }
-.bloc_la-note-enchantee:hover {
-  transform: scale(1.05);
+
+.bloc_le-chic-a-la-francaise h3 {
+  color: burlywood;
+  font-family: "dancingscript";
 }
 
-.bloc_le-chic-a-la-francaise {
+.gradien {
   background-color: #fff5fe;
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform 400ms;
 }
-.bloc_le-chic-a-la-francaise h2 {
+.gradien h2 {
   background: linear-gradient(159deg, #fcb045 0%, #fd1d1d 5%, #833ab4 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   font-family: "dancingscript";
-}
-.bloc_le-chic-a-la-francaise h3 {
-  color: burlywood;
-  font-family: "dancingscript";
-}
-.bloc_le-chic-a-la-francaise:hover {
-  transform: scale(1.05);
+  padding: 10px;
 }
 
 .bloc_le-delice-des-papilles {
   background-color: whitesmoke;
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform 400ms;
 }
 .bloc_le-delice-des-papilles h2, .bloc_le-delice-des-papilles h3 {
   font-size: 50px;
@@ -201,15 +180,12 @@ h1 a {
   font-family: "kaushanscript";
   padding: 10px;
 }
-.bloc_le-delice-des-papilles:hover {
-  transform: scale(1.05);
+.bloc_le-delice-des-papilles h1.underline:hover {
+  border-bottom: 2px solid rgba(0, 0, 255, 0.8827906162);
 }
 
 .bloc_la-palette-du-gout {
   background-color: white;
-  cursor: pointer;
-  transform: scale(1);
-  transition: transform 400ms;
 }
 .bloc_la-palette-du-gout h2, .bloc_la-palette-du-gout h3 {
   color: green;
@@ -218,13 +194,86 @@ h1 a {
 .bloc_la-palette-du-gout h2 {
   font-size: 60px;
 }
-.bloc_la-palette-du-gout:hover {
-  transform: scale(1.05);
+
+.zoom:hover {
+  opacity: 0.4;
+}
+.zoom:hover h2, .zoom:hover h3 {
+  transform: scale(1.2);
+  transition: transform 400ms;
+}
+
+.underline h1:hover {
+  border-bottom: 2px solid;
 }
 
 @media screen and (max-width: 1060px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .menu_top h2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
   .section-menu-intro {
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .menu-card-wrapper {
+    max-height: 600px;
+    max-width: 250px;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .menu-card-wrapper h3 {
+    font-size: 40px;
+  }
+
+  .menu-card-wrapper-full {
+    font-size: 35px;
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+  }
+
+  .bloc_le-delice-des-papilles h3 {
+    font-size: 30px;
+  }
+  .bloc_le-delice-des-papilles h2 {
+    font-size: 27px;
+  }
+
+  .bloc_la-palette-du-gout h2 {
+    font-size: 40px;
+  }
+  .bloc_la-palette-du-gout h3 {
+    font-size: 30px;
+  }
+
+  .bloc_la-note-enchantee h3 {
+    font-size: 35px;
+  }
+
+  .bloc_le-chic-a-la-francaise h3 {
+    font-size: 35px;
+  }
+  .bloc_le-chic-a-la-francaise h2 {
+    font-size: 27px;
   }
 }
 .menu_la-note-enchantee .la-note-enchantee_top {
@@ -240,10 +289,9 @@ h1 a {
 }
 .menu_la-note-enchantee .la-note-enchantee_menu h1, .menu_la-note-enchantee .la-note-enchantee_menu h2, .menu_la-note-enchantee .la-note-enchantee_menu h3 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px;
+  padding: 40px;
 }
 .menu_la-note-enchantee .plat-descr, .menu_la-note-enchantee .plat-prix {
   font-family: "damion";
@@ -258,6 +306,7 @@ h1 a {
 }
 .menu_la-note-enchantee h2 {
   font-size: 35px;
+  padding-top: 20px;
 }
 .menu_la-note-enchantee h3 {
   font-size: 20px;
@@ -270,9 +319,11 @@ h1 a {
   font-size: 22px;
 }
 
+.menu_le-chic-a-la-francaise * {
+  font-family: "dancingscript";
+}
 .menu_le-chic-a-la-francaise .le-chic-a-la-francaise_top {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -283,13 +334,13 @@ h1 a {
 }
 .menu_le-chic-a-la-francaise .le-chic-a-la-francaise_menu h1, .menu_le-chic-a-la-francaise .le-chic-a-la-francaise_menu h2, .menu_le-chic-a-la-francaise .le-chic-a-la-francaise_menu h3 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 40px;
 }
 .menu_le-chic-a-la-francaise .plat-descr, .menu_le-chic-a-la-francaise .plat-prix {
   font-family: "dancingscript";
+  font-size: 25px;
 }
 .menu_le-chic-a-la-francaise h1, .menu_le-chic-a-la-francaise h2, .menu_le-chic-a-la-francaise h3 {
   color: burlywood;
@@ -301,6 +352,7 @@ h1 a {
 }
 .menu_le-chic-a-la-francaise h2 {
   font-size: 35px;
+  padding-top: 20px;
 }
 .menu_le-chic-a-la-francaise h3 {
   font-size: 20px;
@@ -313,6 +365,9 @@ h1 a {
   font-size: 22px;
 }
 
+.menu_le-delice-des-papilles * {
+  font-family: "kaushanscript";
+}
 .menu_le-delice-des-papilles .le-delice-des-papilles_top {
   display: flex;
   flex-direction: column;
@@ -326,10 +381,9 @@ h1 a {
 }
 .menu_le-delice-des-papilles .le-delice-des-papilles_menu h1, .menu_le-delice-des-papilles .le-delice-des-papilles_menu h2, .menu_le-delice-des-papilles .le-delice-des-papilles_menu h3 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 40px;
 }
 .menu_le-delice-des-papilles .plat-descr, .menu_le-delice-des-papilles .plat-prix {
   font-family: "kaushanscript";
@@ -348,6 +402,7 @@ h1 a {
 }
 .menu_le-delice-des-papilles h2 {
   font-size: 35px;
+  padding-top: 20px;
 }
 .menu_le-delice-des-papilles h3 {
   font-size: 20px;
@@ -360,6 +415,9 @@ h1 a {
   font-size: 22px;
 }
 
+.menu_la-palette-du-gout * {
+  font-family: "caveat";
+}
 .menu_la-palette-du-gout .la-palette-du-gout_top {
   display: flex;
   flex-direction: column;
@@ -373,13 +431,13 @@ h1 a {
 }
 .menu_la-palette-du-gout .la-palette-du-gout_menu h1, .menu_la-palette-du-gout .la-palette-du-gout_menu h2, .menu_la-palette-du-gout .la-palette-du-gout_menu h3 {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 40px;
 }
 .menu_la-palette-du-gout .plat-descr, .menu_la-palette-du-gout .plat-prix {
   font-family: "caveat";
+  font-size: 25px;
 }
 .menu_la-palette-du-gout h1, .menu_la-palette-du-gout h2, .menu_la-palette-du-gout h3 {
   color: green;
@@ -391,6 +449,7 @@ h1 a {
 }
 .menu_la-palette-du-gout h2 {
   font-size: 35px;
+  padding-top: 20px;
 }
 .menu_la-palette-du-gout h3 {
   font-size: 20px;
@@ -403,6 +462,144 @@ h1 a {
   font-size: 22px;
 }
 
+.menu_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1060px) {
+  .menu_la-note-enchantee .note-musique {
+    font-size: 10px;
+  }
+  .menu_la-note-enchantee h1 {
+    font-size: 25px;
+  }
+  .menu_la-note-enchantee h2 {
+    font-size: 20px;
+  }
+  .menu_la-note-enchantee .plat-descr, .menu_la-note-enchantee .plat-prix {
+    font-size: 20px;
+  }
+
+  .menu_le-chic-a-la-francaise h1 {
+    font-size: 25px;
+  }
+  .menu_le-chic-a-la-francaise h2 {
+    font-size: 20px;
+  }
+  .menu_le-chic-a-la-francaise .plat-descr, .menu_le-chic-a-la-francaise .plat-prix {
+    font-size: 15px;
+  }
+
+  .menu_le-delice-des-papilles h1 {
+    font-size: 25px;
+  }
+  .menu_le-delice-des-papilles h2 {
+    font-size: 20px;
+  }
+
+  .menu_la-palette-du-gout h1 {
+    font-size: 25px;
+  }
+  .menu_la-palette-du-gout h2 {
+    font-size: 20px;
+  }
+}
+.btn-prochainement {
+  background-color: #579C87;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 1.5rem 3rem;
+}
+.btn-prochainement .dot {
+  margin: 0px 2px;
+  font-size: 30px;
+}
+.btn-prochainement:hover .dot {
+  animation: slide-in-top 1s ease-in-out infinite both;
+}
+.btn-prochainement:hover .dot1 {
+  animation-delay: 0ms;
+}
+.btn-prochainement:hover .dot2 {
+  animation-delay: 100ms;
+}
+.btn-prochainement:hover .dot3 {
+  animation-delay: 200ms;
+}
+
+.shake:hover {
+  animation: headshake 120ms infinite both;
+}
+
+@keyframes headshake {
+  0% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  12% {
+    transform: translateX(1px);
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateX(1px);
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateX(2px);
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateX(1px);
+    transform: translateY(1px);
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2020-9-21 22:25:36
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation slide-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .contact {
   display: flex;
   justify-content: space-between;
@@ -437,28 +634,16 @@ h1 a {
   margin-bottom: 200px;
 }
 
-.btn-prochainement {
-  background-color: #579C87;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  padding: 1.5rem 3rem;
-  transform: scale(1);
-  transition: transform 400ms;
-}
-.btn-prochainement:hover {
-  transform: scale(1.1);
+.hr h2 {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .plat-ligne {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .plat-prix {
@@ -467,12 +652,46 @@ h1 a {
   text-align: right;
 }
 
-.container_mentions-legales {
+.menu-subtitle {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   font-size: 30px;
+}
+
+h2.menu-subtitle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 30px;
+}
+h2.menu-subtitle .line {
+  border-bottom: 2px solid black;
+  width: 25%;
+}
+
+@media screen and (max-width: 1060px) {
+  .btn-wrapper {
+    margin-bottom: 150px;
+  }
+
+  .menu-subtitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  h2.menu-subtitle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 20px;
+  }
+  h2.menu-subtitle .line {
+    border-bottom: 2px solid black;
+    width: 25%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
