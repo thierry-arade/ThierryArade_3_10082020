@@ -267,6 +267,12 @@ h1 a {
     font-size: 40px;
   }
 
+  .menu_top h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
   .menu_top h2 {
     font-size: 20px;
     display: flex;
@@ -306,28 +312,28 @@ h1 a {
   }
 
   .bloc_le-delice-des-papilles h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .bloc_le-delice-des-papilles h3 {
-    font-size: 27px;
+    font-size: 22px;
   }
 
   .bloc_la-palette-du-gout h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .bloc_la-palette-du-gout h3 {
-    font-size: 27px;
+    font-size: 22px;
   }
 
   .bloc_la-note-enchantee h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .bloc_le-chic-a-la-francaise h2 {
-    font-size: 27px;
+    font-size: 22px;
   }
   .bloc_le-chic-a-la-francaise h3 {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 .menu_la-note-enchantee .la-note-enchantee_top {
@@ -766,7 +772,7 @@ h2.menu-subtitle .text:hover::after {
     height: 2px;
     transform: scaleX(0);
     transform-origin: left;
-    transition: transform 2s ease-in-out;
+    transition: transform 1s ease-in-out;
     background-color: black;
   }
   h2.menu-subtitle .text:hover::after {
