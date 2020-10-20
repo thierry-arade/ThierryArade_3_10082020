@@ -54,8 +54,14 @@
     }
 }
 .menu_top {
-    h2 {
+    h1 {
         font-size: 40px;
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    h2 {
+        font-size: 70px;
         display: flex;
         justify-content: center;
     }
@@ -68,17 +74,26 @@
         color: black;
         font-family: 'damion';
     }
+    .gradien2 {
+        background: linear-gradient(159deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 5%, rgba(131,58,180,1) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        padding: 10px;
+    }
 }
 
 .bloc_le-chic-a-la-francaise
-{
+{   h2 {
+        font-size: 40px;
+    }
     h3 {
         color: burlywood;
         font-family: 'dancingscript';
     }
 }
 
-.gradien{
+.gradien {
     background-color: $color-title-le-chic-a-la-francaise;
     h2 {
         background: linear-gradient(159deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 5%, rgba(131,58,180,1) 100%);
@@ -90,28 +105,22 @@
     }
 }
 
-.bloc_le-delice-des-papilles
-{ 
+.bloc_le-delice-des-papilles { 
     background-color: $color-title-le-delice-des-papilles;
     h2, h3 {
-        font-size: 50px;
+        font-size: 43px;
         background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(0,0,255,0.8827906162464986) 35%, rgba(0,212,255,1) 100%);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         font-family: 'kaushanscript';
         padding: 10px;
-    }
-
-    h1.underline {
-        &:hover {
-            border-bottom: 2px solid rgba(0,0,255,0.8827906162464986);
-        }
+        transform: scale(1);
+        opacity: 1;
     }
 }
 
-.bloc_la-palette-du-gout
-{
+.bloc_la-palette-du-gout{
     background-color: $color-title-la-palette-du-gout;
     h2, h3 {
         color: green;
@@ -123,19 +132,18 @@
 }
 
 .zoom {
+    
+    opacity: 1;
+    transition: all 1000ms;
+    h2, h3 {
+        transform: scale(1);
+        transition: all 1000ms;
+    }
     &:hover {
         opacity: 0.4;
         h2, h3 {
-            transform: scale(1.2); 
-            transition: transform 400ms;
-        }
-    }
-}
-
-.underline {
-    h1 {
-        &:hover {
-            border-bottom: 2px solid;
+            transform: scale(1.3); 
+            
         }
     }
 }
@@ -171,7 +179,6 @@
     }
 
     .menu-card-wrapper-full {
-        font-size: 35px;
         padding: 25px;
         margin-top: 20px;
         margin-bottom: 120px;
@@ -184,19 +191,19 @@
     }
 
     .bloc_le-delice-des-papilles {
-        h3 {
-            font-size: 30px;
-        }
         h2 {
+            font-size: 25px;
+        }
+        h3 {
             font-size: 27px;
         }
     }
     .bloc_la-palette-du-gout {
         h2 {
-            font-size: 40px;
+            font-size: 35px;
         }
         h3 {
-            font-size: 30px;
+            font-size: 27px;
         }
     }
     .bloc_la-note-enchantee {
@@ -205,11 +212,11 @@
         }
     }
     .bloc_le-chic-a-la-francaise {
-        h3 {
-            font-size: 35px;
-        }
         h2 {
             font-size: 27px;
+        }
+        h3 {
+            font-size: 35px;
         }
     }
 }

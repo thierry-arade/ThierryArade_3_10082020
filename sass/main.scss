@@ -33,11 +33,12 @@
     margin-bottom: 15px;
 }
 
-.btn-wrapper 
-{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 200px;
+$shake-intensity: 2%;
+
+.shake {
+    &:hover {
+        animation: headshake 120ms infinite both;
+    }
 }
 
 .hr {
@@ -63,7 +64,7 @@
 }
 
 .menu-subtitle {
-	display: flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
     font-size: 30px;
@@ -74,9 +75,31 @@ h2.menu-subtitle {
     justify-content: space-between;
     width: 100%;
     font-size: 30px;
+    margin-top: 40px;
 	.line {
         border-bottom: 2px solid black;
-        width: 25%;
+        flex : 1 1 0%;
+    }
+    .text {
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        &::after {
+            content: "";
+            width: 100%;
+            display: block;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            height: 2px;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 1s ease-in-out;
+            background-color: black;
+        }
+        &:hover::after {
+            transform: scaleX(1);
+        }
     }
 }
 
@@ -97,8 +120,33 @@ h2.menu-subtitle {
         font-size: 20px;
         .line {
             border-bottom: 2px solid black;
-            width: 25%;
+            flex : 1 1 0%;
         }
+        .text {
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            &::after {
+                content: "";
+                width: 100%;
+                display: block;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                height: 2px;
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform 2s ease-in-out;
+                background-color: black;
+            }
+            &:hover::after {
+                transform: scaleX(1);
+            }
+        }
+    }
+    .plat-ligne {
+        margin: 30px 0px;
+        align-items: center;
     }
 }
 
