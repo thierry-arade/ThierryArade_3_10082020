@@ -1,5 +1,4 @@
-.menu_la-note-enchantee
-{
+.menu_la-note-enchantee {
     .la-note-enchantee_top {
         display: flex;
         flex-direction: column;
@@ -13,8 +12,7 @@
         align-items: center;
     }
 
-    .la-note-enchantee_menu
-    {
+    .la-note-enchantee_menu {
         h1, h2, h3 {
         display: flex;
         justify-content: space-between;
@@ -49,8 +47,7 @@
         font-size: 20px;
     }
 
-    p
-    {
+    p {
         font-family: 'damion';
         display: flex;
         justify-content: space-between;
@@ -59,11 +56,11 @@
     }
 }
 
-.menu_le-chic-a-la-francaise
-{   
+.menu_le-chic-a-la-francaise {   
     * {
         font-family: 'dancingscript';
     }
+
     .le-chic-a-la-francaise_top {
         display: flex;
         justify-content: center;
@@ -76,8 +73,7 @@
         align-items: center;
     }
 
-    .le-chic-a-la-francaise_menu
-    {
+    .le-chic-a-la-francaise_menu {
         h1, h2, h3 {
         display: flex;
         justify-content: space-between;
@@ -113,8 +109,7 @@
         font-size: 20px;
     }
 
-    p
-    {
+    p {
         font-family: 'dancingscript';
         display: flex;
         justify-content: space-between;
@@ -123,11 +118,11 @@
     }
 }
 
-.menu_le-delice-des-papilles
-{
+.menu_le-delice-des-papilles {
     * {
         font-family: 'kaushanscript';
     }
+
     .le-delice-des-papilles_top {
         display: flex;
         flex-direction: column;
@@ -141,8 +136,7 @@
         align-items: center;
     }
 
-    .le-delice-des-papilles_menu
-    {
+    .le-delice-des-papilles_menu {
         h1, h2, h3 {
         display: flex;
         justify-content: center;
@@ -168,7 +162,6 @@
         font-size: 50px;
         background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(0,0,255,0.8827906162464986) 35%, rgba(0,212,255,1) 100%);
         -webkit-background-clip: text;
-        background-clip: text;
         color: transparent;
     }
 
@@ -181,8 +174,7 @@
         font-size: 20px;
     }
 
-    p
-    {
+    p {
         font-family: 'kaushanscript';
         display: flex;
         justify-content: space-between;
@@ -191,11 +183,11 @@
     }
 }
 
-.menu_la-palette-du-gout
-{
+.menu_la-palette-du-gout {
     * {
         font-family: 'caveat';
     }
+
     .la-palette-du-gout_top {
         display: flex;
         flex-direction: column;
@@ -209,8 +201,7 @@
         align-items: center;
     }
 
-    .la-palette-du-gout_menu
-    {
+    .la-palette-du-gout_menu {
         h1, h2, h3 {
         display: flex;
         justify-content: center;
@@ -246,8 +237,7 @@
         font-size: 20px;
     }
 
-    p
-    {
+    p {
         font-family: 'caveat';
         display: flex;
         justify-content: space-between;
@@ -255,6 +245,7 @@
         font-size: 22px;
     }
 }
+
 .menu_title {
     display: flex;
     justify-content: center;
@@ -286,6 +277,7 @@
             font-size: 20px;
         }
     }
+
     .menu_le-chic-a-la-francaise {
         h1 {
             font-size: 25px;
@@ -294,9 +286,10 @@
             font-size: 20px;
         }
         .plat-descr, .plat-prix {
-            font-size: 15px;
+            font-size: 18px;
         }
     }
+
     .menu_le-delice-des-papilles {
         h1 {
             font-size: 25px;
@@ -304,12 +297,21 @@
         h2 {
             font-size: 20px;
         }
+        .plat-descr, .plat-prix {
+            font-family: 'kaushanscript';
+            font-size: 18px;
+        }
     }
+
     .menu_la-palette-du-gout {
         h1 {
             font-size: 25px;
         }
         h2 {
+            font-size: 20px;
+        }
+        .plat-descr, .plat-prix {
+            font-family: 'caveat';
             font-size: 20px;
         }
     }

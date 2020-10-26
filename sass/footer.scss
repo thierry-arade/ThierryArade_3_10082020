@@ -1,5 +1,4 @@
-.contact
-{
+.contact {
     display:flex;
     justify-content: space-between;
     background-color: #579c87;
@@ -15,7 +14,6 @@
         font-size: 25px;
     }
 }
-
 
 @media screen and (max-width: 1060px) {
     .contact {

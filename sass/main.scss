@@ -7,16 +7,14 @@
 @import 'blocs_menus.scss';
 @import 'menus.scss';
 @import 'animations.scss';
-@import 'contact.scss';
 
 
-* 
-{
+
+* {
     font-family: 'Breul Grotesk', 'damion', 'dancingscript', 'kaushanscript', 'caveat';
 }
 
-.main
-{
+.main {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -24,16 +22,13 @@
     padding: 20px;
 }
 
-.bloc_page
-{
+.bloc_page {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-$shake-intensity: 2%;
 
 .shake {
     &:hover {
@@ -49,15 +44,13 @@ $shake-intensity: 2%;
     }
 }
 
-.plat-ligne
-{
+.plat-ligne {
     display: flex;
     justify-content: space-between;
     width:100%;
 }
 
-.plat-prix
-{
+.plat-prix {
     margin-left: 20px;
     min-width: 80px;
     text-align: right;
@@ -149,5 +142,3 @@ h2.menu-subtitle {
         align-items: center;
     }
 }
-
-

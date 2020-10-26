@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    }
+}
   
 .section-menu-intro {
     display: flex;
@@ -11,8 +11,7 @@
     padding-bottom: 60px;
 }
 
-.section-menu-intro
-{
+.section-menu-intro {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -53,6 +52,7 @@
         font-size: 80px;
     }
 }
+
 .menu_top {
     h1 {
         font-size: 40px;
@@ -67,8 +67,7 @@
     }
 }
 
-.bloc_la-note-enchantee
-{
+.bloc_la-note-enchantee {
     background-color: $color-title-la-note-enchantee;
     h2, h3 {
         color: black;
@@ -83,8 +82,8 @@
     }
 }
 
-.bloc_le-chic-a-la-francaise
-{   h2 {
+.bloc_le-chic-a-la-francaise {   
+    h2 {
         font-size: 40px;
     }
     h3 {
@@ -120,7 +119,7 @@
     }
 }
 
-.bloc_la-palette-du-gout{
+.bloc_la-palette-du-gout {
     background-color: $color-title-la-palette-du-gout;
     h2, h3 {
         color: green;
@@ -132,7 +131,6 @@
 }
 
 .zoom {
-    
     opacity: 1;
     transition: all 1000ms;
     h2, h3 {
@@ -206,7 +204,7 @@
     }
     .bloc_la-palette-du-gout {
         h2 {
-            font-size: 30px;
+            font-size: 20px;
         }
         h3 {
             font-size: 22px;
@@ -226,12 +224,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
