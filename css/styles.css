@@ -196,7 +196,6 @@ h1 a {
 .bloc_la-note-enchantee .gradien2 {
   background: linear-gradient(159deg, #fcb045 0%, #fd1d1d 5%, #833ab4 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   padding: 10px;
 }
@@ -215,7 +214,6 @@ h1 a {
 .gradien h2 {
   background: linear-gradient(159deg, #fcb045 0%, #fd1d1d 5%, #833ab4 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-family: "dancingscript";
   padding: 10px;
@@ -228,7 +226,6 @@ h1 a {
   font-size: 43px;
   background: linear-gradient(132deg, #020024 0%, rgba(0, 0, 255, 0.8827906162) 35%, #00d4ff 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-family: "kaushanscript";
   padding: 10px;
