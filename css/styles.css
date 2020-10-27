@@ -8,6 +8,52 @@ h1, h2, h3, h4 {
   padding: 0px;
 }
 
+@keyframes headshake {
+  0% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  12% {
+    transform: translateX(1px);
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateX(3px);
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateX(1px);
+    transform: translateY(1px);
+  }
+}
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 @font-face {
   font-family: "Breul Grotesk";
   src: url(../fonts/breul-grotesk-a-regular.ttf);
@@ -27,47 +73,6 @@ h1, h2, h3, h4 {
 @font-face {
   font-family: "caveat";
   src: url(../fonts/caveat.ttf);
-}
-.head {
-  width: 100%;
-  height: 150px;
-  background-color: #579C87;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h1 {
-  color: #ffc400;
-  font-size: 100px;
-}
-
-h1 a {
-  text-decoration: none;
-  color: unset;
-}
-
-.contact {
-  display: flex;
-  justify-content: space-between;
-  background-color: #579c87;
-  height: 100px;
-  align-items: center;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-}
-.contact a {
-  color: #ffc400;
-  text-decoration: none;
-  padding: 10px;
-  font-size: 25px;
-}
-
-@media screen and (max-width: 1060px) {
-  .contact {
-    font-size: 10px;
-  }
 }
 .button {
   background-color: #579C87;
@@ -119,6 +124,47 @@ h1 a {
   animation-delay: 200ms;
 }
 
+.head {
+  width: 100%;
+  height: 150px;
+  background-color: #579C87;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ffc400;
+  font-size: 100px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: unset;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  background-color: #579c87;
+  height: 100px;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.contact a {
+  color: #ffc400;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1060px) {
+  .contact {
+    font-size: 10px;
+  }
+}
 .bloc_page {
   display: flex;
   flex-direction: column;
@@ -590,52 +636,6 @@ h1 a {
   .menu_la-palette-du-gout .plat-descr, .menu_la-palette-du-gout .plat-prix {
     font-family: "caveat";
     font-size: 20px;
-  }
-}
-@keyframes headshake {
-  0% {
-    transform: translateX(0px);
-    transform: translateY(0px);
-  }
-  12% {
-    transform: translateX(1px);
-    transform: translateY(0px);
-  }
-  25% {
-    transform: translateX(3px);
-    transform: translateY(-2px);
-  }
-  50% {
-    transform: translateX(2px);
-    transform: translateY(0px);
-  }
-  75% {
-    transform: translateX(1px);
-    transform: translateY(1px);
-  }
-}
-@-webkit-keyframes slide-in-top {
-  0% {
-    -webkit-transform: translateY(-1000px);
-    transform: translateY(-1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-top {
-  0% {
-    -webkit-transform: translateY(-1000px);
-    transform: translateY(-1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
   }
 }
 * {
