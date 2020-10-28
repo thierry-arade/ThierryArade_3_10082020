@@ -227,7 +227,7 @@ h1 a {
   color: black;
 }
 .menu_top h2 {
-  font-size: 70px;
+  font-size: 40px;
   display: flex;
   justify-content: center;
 }
@@ -415,7 +415,7 @@ h1 a {
   padding-top: 20px;
 }
 .menu_la-note-enchantee h3 {
-  font-size: 20px;
+  font-size: 50px;
 }
 .menu_la-note-enchantee p {
   font-family: "damion";
@@ -464,7 +464,7 @@ h1 a {
   padding-top: 20px;
 }
 .menu_le-chic-a-la-francaise h3 {
-  font-size: 20px;
+  font-size: 40px;
 }
 .menu_le-chic-a-la-francaise p {
   font-family: "dancingscript";
@@ -505,18 +505,20 @@ h1 a {
   font-family: "kaushanscript";
   align-items: center;
 }
-.menu_le-delice-des-papilles h1 {
+.menu_le-delice-des-papilles h1, .menu_le-delice-des-papilles h2, .menu_le-delice-des-papilles h3 {
   font-size: 50px;
   background: linear-gradient(132deg, #020024 0%, rgba(0, 0, 255, 0.8827906162) 35%, #00d4ff 100%);
   -webkit-background-clip: text;
   color: transparent;
 }
+.menu_le-delice-des-papilles h3 .text {
+  color: blue;
+  font-family: "kaushanscript";
+  align-items: center;
+}
 .menu_le-delice-des-papilles h2 {
   font-size: 35px;
   padding-top: 20px;
-}
-.menu_le-delice-des-papilles h3 {
-  font-size: 20px;
 }
 .menu_le-delice-des-papilles p {
   font-family: "kaushanscript";
@@ -566,7 +568,7 @@ h1 a {
   padding-top: 20px;
 }
 .menu_la-palette-du-gout h3 {
-  font-size: 20px;
+  font-size: 50px;
 }
 .menu_la-palette-du-gout p {
   font-family: "caveat";
@@ -602,6 +604,9 @@ h1 a {
   .menu_la-note-enchantee h2 {
     font-size: 20px;
   }
+  .menu_la-note-enchantee h3 {
+    font-size: 30px;
+  }
   .menu_la-note-enchantee .plat-descr, .menu_la-note-enchantee .plat-prix {
     font-size: 20px;
   }
@@ -611,6 +616,9 @@ h1 a {
   }
   .menu_le-chic-a-la-francaise h2 {
     font-size: 20px;
+  }
+  .menu_le-chic-a-la-francaise h3 {
+    font-size: 25px;
   }
   .menu_le-chic-a-la-francaise .plat-descr, .menu_le-chic-a-la-francaise .plat-prix {
     font-size: 18px;
@@ -622,6 +630,9 @@ h1 a {
   .menu_le-delice-des-papilles h2 {
     font-size: 20px;
   }
+  .menu_le-delice-des-papilles h3 {
+    font-size: 25px;
+  }
   .menu_le-delice-des-papilles .plat-descr, .menu_le-delice-des-papilles .plat-prix {
     font-family: "kaushanscript";
     font-size: 18px;
@@ -632,6 +643,9 @@ h1 a {
   }
   .menu_la-palette-du-gout h2 {
     font-size: 20px;
+  }
+  .menu_la-palette-du-gout h3 {
+    font-size: 25px;
   }
   .menu_la-palette-du-gout .plat-descr, .menu_la-palette-du-gout .plat-prix {
     font-family: "caveat";
@@ -687,23 +701,23 @@ h1 a {
   font-size: 30px;
 }
 
-h2.menu-subtitle {
+h3.menu-subtitle {
   display: flex;
   justify-content: space-between;
   width: 100%;
   font-size: 30px;
   margin-top: 40px;
 }
-h2.menu-subtitle .line {
+h3.menu-subtitle .line {
   border-bottom: 2px solid black;
   flex: 1 1 0%;
 }
-h2.menu-subtitle .text {
+h3.menu-subtitle .text {
   padding: 10px;
   text-align: center;
   position: relative;
 }
-h2.menu-subtitle .text::after {
+h3.menu-subtitle .text::after {
   content: "";
   width: 100%;
   display: block;
@@ -716,7 +730,7 @@ h2.menu-subtitle .text::after {
   transition: transform 1s ease-in-out;
   background-color: black;
 }
-h2.menu-subtitle .text:hover::after {
+h3.menu-subtitle .text:hover::after {
   transform: scaleX(1);
 }
 
@@ -732,22 +746,22 @@ h2.menu-subtitle .text:hover::after {
     font-size: 20px;
   }
 
-  h2.menu-subtitle {
+  h3.menu-subtitle {
     display: flex;
     justify-content: space-between;
     width: 100%;
     font-size: 20px;
   }
-  h2.menu-subtitle .line {
+  h3.menu-subtitle .line {
     border-bottom: 2px solid black;
     flex: 1 1 0%;
   }
-  h2.menu-subtitle .text {
+  h3.menu-subtitle .text {
     padding: 10px;
     text-align: center;
     position: relative;
   }
-  h2.menu-subtitle .text::after {
+  h3.menu-subtitle .text::after {
     content: "";
     width: 100%;
     display: block;
@@ -760,7 +774,7 @@ h2.menu-subtitle .text:hover::after {
     transition: transform 1s ease-in-out;
     background-color: black;
   }
-  h2.menu-subtitle .text:hover::after {
+  h3.menu-subtitle .text:hover::after {
     transform: scaleX(1);
   }
 

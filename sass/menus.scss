@@ -44,7 +44,7 @@
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 50px;
     }
 
     p {
@@ -106,7 +106,7 @@
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     p {
@@ -158,20 +158,25 @@
         align-items: center;
     }
 
-    h1 {
+
+    h1, h2, h3 {
         font-size: 50px;
         background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(0,0,255,0.8827906162464986) 35%, rgba(0,212,255,1) 100%);
         -webkit-background-clip: text;
         color: transparent;
     }
 
+    h3 {   
+        .text {
+            color:blue;
+            font-family: 'kaushanscript';
+            align-items: center;
+        }
+    }
+
     h2 {
         font-size: 35px;
         padding-top: 20px;
-    }
-
-    h3 {
-        font-size: 20px;
     }
 
     p {
@@ -234,7 +239,7 @@
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 50px;
     }
 
     p {
@@ -273,6 +278,9 @@
         h2 {
             font-size: 20px;
         }
+        h3 {
+            font-size: 30px;
+        }
         .plat-descr, .plat-prix {
             font-size: 20px;
         }
@@ -284,6 +292,9 @@
         }
         h2 {
             font-size: 20px;
+        }
+        h3 {
+            font-size: 25px;
         }
         .plat-descr, .plat-prix {
             font-size: 18px;
@@ -297,6 +308,9 @@
         h2 {
             font-size: 20px;
         }
+        h3 {
+            font-size: 25px;
+        }
         .plat-descr, .plat-prix {
             font-family: 'kaushanscript';
             font-size: 18px;
@@ -309,6 +323,9 @@
         }
         h2 {
             font-size: 20px;
+        }
+        h3 {
+            font-size: 25px;
         }
         .plat-descr, .plat-prix {
             font-family: 'caveat';
